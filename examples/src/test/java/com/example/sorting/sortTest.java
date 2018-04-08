@@ -34,4 +34,12 @@ public class sortTest {
         }
     }
 
+    @Test
+    public void shellSort() throws Exception {
+        int[] sort = Sort.shellSort(numbers);
+        for (int x = 0; x < sort.length; x++) {
+            System.out.print(sort[x] + "-");
+        }
+    }
+
 }
